@@ -1,6 +1,7 @@
 import '../styles/styles.css';
 import MobileMenu from './modules/MobileMenu';
 import RevealOnScroll from './modules/RevealOnScroll';
+import StickyHeader from './modules/StickyHeader';
 //import Person from './modules/Person';
 
 
@@ -9,6 +10,7 @@ new RevealOnScroll(document.querySelectorAll('.testimonial'), 60);
 //new RevealOnScroll(document.querySelectorAll('.generic-content-container'), 75);
 
 let mobileMenu = new MobileMenu();
+let stickyHeader = new StickyHeader();
 
 
 if(module.hot) {
